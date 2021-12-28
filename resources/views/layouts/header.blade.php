@@ -15,7 +15,7 @@
                   </li>
                   <li class="nav-item">
                       <a class="nav-link @isset($aktywneMenu) @if ($aktywneMenu === 'wyswietlacz') active @endif @endisset" aria-current="page"
-                          href="{{ route('wyswietlacz') }}">Wyświetlacz LDC</a>
+                          href="{{ route('wyswietlacz') }}">Wyświetlacz LCD</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link @isset($aktywneMenu) @if ($aktywneMenu === 'wygraneLosy') active @endif @endisset" aria-current="page"
