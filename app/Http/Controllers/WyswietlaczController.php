@@ -46,8 +46,6 @@ if(!is_numeric($liczba)) {
             $skladoweLiczby[2][] = $skladoweWszystkichCyfr[$cyfra][2];
         }
         dd(implode("", $skladoweLiczby[0]).PHP_EOL.implode("", $skladoweLiczby[1]).PHP_EOL.implode("", $skladoweLiczby[2]));
-        
-        return response()->json(['skladoweLiczby' => $skladoweLiczby], 200);
 
     }
 
